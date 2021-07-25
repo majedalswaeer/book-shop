@@ -1,7 +1,7 @@
 'use strict';
 
 let mainArr=[];
-function All(bookName,bookPages,bookPrice){
+function All(bookName,bookPages,bookPrice,){
   this.bookName=bookName;
   this.bookPages=bookPages;
   this.bookPrice=bookPrice;
@@ -89,5 +89,7 @@ function read(){
   }
   getTable();
 }
+
+
 
 read();

@@ -1,9 +1,10 @@
 
 
 body{
-    background-image: url("https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg");
+    background: url(https://peoriaparks.org/wp-content/uploads/2017/12/BookCourt_iStock-690358116-e1515177346323.jpg) no-repeat center center fixed;
     font-family: 'Roboto', sans-serif;
     color: aliceblue;
+    background-size: cover;
 }
 header{
     text-align: center;
@@ -71,6 +72,7 @@ label {
     cursor: pointer;
 }
 form{
+    margin-top: 1ch;
     position: relative;
     padding-top: -2ch;
     width: 60ch;
